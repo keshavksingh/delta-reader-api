@@ -1,0 +1,6 @@
+delta-lake-reader[azure]
+pyarrowfs-adlgen2
+adlfs
+mlplatformutils
+fastapi[all]
+python-dotenv
