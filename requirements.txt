@@ -3,4 +3,5 @@ pyarrowfs-adlgen2
 adlfs
 mlplatformutils
 fastapi[all]
+fastapi-utils
 python-dotenv
