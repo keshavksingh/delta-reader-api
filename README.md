@@ -11,3 +11,7 @@ A Containerized Delta Formatted Table Reader. The data source is Azure Data Lake
 ## main-v2.py
 * In this solution, we load the data from Delta Lake into IN MEMORY Dataframe
 * Serve it through memory. It reduces the latency to milli seconds with the tradeoff of the need to scheduler-based init refreshes.
+
+## main-v3.py
+* Ultimately we leverage https://pypi.org/project/fastapi-utils/ and https://fastapi-utils.davidmontague.xyz/user-guide/repeated-tasks/ to be able to refresh data from Delta Lake every 60 seconds without disrupting reads.
+* Helps reflect changes for data from Lake by triggering a background refresh preodically without hurting realtime reads of data.
