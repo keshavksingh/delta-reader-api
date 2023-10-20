@@ -1,5 +1,8 @@
 # Delta Storage Format Reader API
 
+![image](https://github.com/keshavksingh/delta-reader-api/assets/41631964/0ebc484a-0dc9-4eb3-a865-42171682ade5)
+
+
 A Containerized Delta Formatted Table Reader. The data source is Azure Data Lake Gen2 Storage in Delta Format. 
 ## main.py
 * The solution leverages Python Delta Reader to enable an API for the data.
